@@ -1,0 +1,167 @@
+1)write a C program make a neon number ?
+
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("enter the value of num");
+    scanf("%d",&num);
+    int sq=num*num;
+    printf("sq :%d\n",sq);
+    int rem,sum=0;
+    while(sq>0){
+        rem=sq%10;
+        sum=sum+rem;
+        sq=sq/10;
+    }
+    printf("sum of sq is :%d\n",sum);
+    if(sum==num){
+        printf("neon number");
+    }
+    else{
+        printf("not neon number");
+    }
+    return 0;
+}
+
+2)write a C program make a armstrong number ?
+
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("enter the value of num");
+    scanf("%d",&num);
+    int rem,sum=0;
+    int temp=num;
+    while(num>0){
+        rem=num%10;
+        sum=sum+rem*rem*rem;
+        num=num/10;
+    }
+    printf("%d",sum);
+    if(temp==sum){
+        printf("this number is armstrong");
+    }
+    else{
+        printf("this number is not armstrong");
+    }
+
+    return 0;
+}
+
+3)write a C program make a reverse number ?
+input :
+153 
+
+output :
+462 
+
+
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("enter the value of num");
+    scanf("%d",&num);
+    int rem,sum=0;
+    
+    while(num>0){
+        rem=num%10;
+        sum=sum*10+rem+1;
+        num=num/10;
+    }
+    printf("%d",sum);
+    
+    
+
+    return 0;
+}
+
+4)write a c program make a pallindrome number ?
+
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("enter the value of num");
+    scanf("%d",&num);
+    int rem,sum=0;
+    int temp=num;
+    while(num>0){
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+    }
+    printf("%d",sum);
+    if(temp==sum){
+        printf("this number is pallindrome");
+    }
+    else{
+        printf("this number is not pallindrome");
+    }
+
+    return 0;
+}
+
+5)write a C program make a even and odd  number from starting point and ending point give user input ?
+
+#include <stdio.h>
+
+int main()
+{
+    char alpha;
+    printf("enter any character");
+   scanf("%c",&alpha);
+   if(alpha=='e'){
+       int a,b;
+   printf("enter the strating point");
+   scanf("%d",&a);
+   printf("enter the ending point");
+   scanf("%d",&b);
+   for(int i=a;i<=b;i++){
+       if(i%2==0){
+         printf("%d ",i);  
+       }
+       
+    }
+   }
+   else if(alpha=='o'){
+       int c,d;
+   printf("enter the strating point");
+   scanf("%d",&c);
+   printf("enter the ending point");
+   scanf("%d",&d);
+   for(int j=c;j<=d;j++){
+       if(j%2!=0){
+           printf("%d ",j);
+       }
+   }
+   }
+    
+    
+
+    return 0;
+}
+
+6)write a C program make a table from 2 to 7  number ?
+
+#include <stdio.h>
+
+int main()
+{
+    for(int i=2;i<=7;i++){
+        for(int j=1;j<=10;j++){
+            printf("%d ",i*j);
+        }
+        printf("\n");
+    }
+    
+
+    return 0;
+}
+

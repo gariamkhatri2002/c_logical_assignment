@@ -1,0 +1,217 @@
+1)
+1-->10 number print 
+ 
+#include<stdio.h>
+int main(){
+    int a=1;
+    while(a<=10){
+        printf("%d ",a);
+        a++;
+    }
+    return 0;
+}
+----------------------------------------------------------
+2)
+1-->100
+
+ #include<stdio.h>
+int main(){
+    int b=1;
+    while(b<=100){
+        printf("%d ",b);
+        b++;
+    }
+    return 0;
+}
+----------------------------------------------------------
+3)
+50--->500
+
+#include<stdio.h>
+int main(){
+    int c=50;
+    while(c>=50 && c<=500){
+        printf("%d ",c);
+        c++;
+    }
+    return 0;
+}
+----------------------------------------------------------
+4)
+34---->89
+ 
+#include<stdio.h>
+int main(){
+   int d=34;
+   while(d>=34 && d<=89){
+       printf("%d ",d);
+       d++;
+   }
+    return 0;
+}
+----------------------------------------------------------
+5)
+1--->100 number print incrment 2
+ 
+#include<stdio.h>
+int main(){
+   int a=1;
+   while(a<=100){
+       printf("%d ",a);
+       a+=2;
+   }
+   
+    return 0;
+}
+----------------------------------------------------------
+34---->89 
+
+number print incrment 5
+
+#include<stdio.h>
+int main() {
+    int a=34;
+    while(a>=34 && a<=89){
+        printf("%d ",a);
+        a+=5;
+    }
+    return 0;
+}
+-----------------------------------------------
+10---->1 
+dry run +laptop 
+
+#include<stdio.h>
+int main() {
+    int a=10;
+    while(a>=1){
+        printf("%d ",a);
+        a--;
+    }
+    return 0;
+}
+
+-----------------------------------------------
+100---->1
+
+#include<stdio.h>
+int main() {
+    int a=100;
+    while(a>=1){
+        printf("%d ",a);
+        a--;
+    }
+    return 0;
+}
+-----------------------------------------------
+500--->50
+ 
+#include<stdio.h>
+int main() {
+    int a=500;
+    while(a>=50){
+        printf("%d ",a);
+        a--;
+    }
+    return 0;
+}
+-----------------------------------------------
+67--->23 
+
+#include<stdio.h>
+int main() {
+    int a=67;
+    while(a>=23){
+        printf("%d ",a);
+        a--;
+    }
+    return 0;
+}
+----------------------------------------
+1 :
+1--->10 number 
+
+
+2:
+98--->67 number 
+
+
+3:
+starting point 
+ending point 
+
+4 :
+10---->1 
+
+5:
+67--->98
+
+6 :
+starting 
+ending 
+reverse order 
+
+input mismatch
+
+ 
+#include<stdio.h>
+int main() {
+    int num;
+    printf("enter the value of num :");
+    scanf("%d",&num);
+    if(num==1){
+        int a=1;
+        while(a<=10){
+            printf("%d ",a);
+            a++;
+        }
+    }
+    else if(num==2){
+        int b=98;
+        while(b>=67){
+            printf("%d ",b);
+            b--;
+        }
+    }
+    else if(num==3){
+        int s,e;
+        printf("enter the value of starting point :");
+        scanf("%d",&s);
+        printf("enter the value of ending point :");
+        scanf("%d",&e);
+        int c=12;
+        while(c>=s && c<=e){
+            printf("%d ",c);
+            c++;
+        }
+    }
+    else if(num==4){
+        int d=10;
+        while(d>=1){
+            printf("%d ",d);
+            d--;
+        }
+    }
+    else if(num==5){
+        int f=67;
+        while(f<=98){
+            printf("%d ",f);
+            f++;
+        }
+    } else if(num==6){
+        int S,E;
+        printf("enter the value of starting point :");
+        scanf("%d",&S);
+        printf("enter the value of ending point :");
+        scanf("%d",&E);
+        int g=75;
+        while(g<=S && g>=E){
+            printf("%d ",g);
+            g--;
+        }
+    }
+    else{
+        printf("input mismatch");
+    }
+    return 0;
+}

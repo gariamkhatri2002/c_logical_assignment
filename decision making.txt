@@ -1,0 +1,511 @@
+1)write a c program to check a number is greater than 50 
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    if(a>50){
+        printf("a is greater");
+    }
+    else{
+        printf("please input value greater than 50");
+    }
+     return 0;
+}
+
+2)write a c program to check a number is greater than 78
+#include<stdio.h>
+int main()
+{
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    if(b>78){
+        printf("b is greater");
+    }
+    else{
+        printf("please input value greater than 78");
+    }
+    return 0;
+}
+
+3)write a c program when a user input a 's' character then two number substract otherwise input mismtach ?
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("enter any single character");
+    scanf("%c",&alpha);
+    if(alpha=='s'){
+        int a,b;
+        printf("enter the value of a and b");
+        scanf("%d""%d",&a,&b);
+        int c=a-b;
+        printf("%d",c);
+    }
+    else{
+        printf("mismatch");
+    }
+    return 0;
+}
+
+4)write a c program to check a number is divisble by 5 or not ? 
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    if(a/5){
+        printf("the number divisible by 5");
+    }
+    else{
+        printf("mismatch");
+    }
+    return 0;
+}
+
+5)write a c program when a user input a 'p' character then two number modular  otherwise input mismtach ?
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("enter any single character");
+    scanf("%c",&alpha);
+    if(alpha=='p'){
+        int a,b;
+        printf("enter the value of a and b");
+        scanf("%d %d",&a,&b);
+        int c=a%b;
+        printf("modular is %d",c);
+    }
+    else{
+        printf("mismatch");
+    }
+    return 0;
+}
+6)write a c program when a user input a 'b' character then print ball otherwise input mismatch ?
+#include<stdio.h>
+int main() {
+    char alpha;
+    printf("enter any single value");
+    scanf("%c",&alpha);
+    if(alpha=='b'){
+        printf("ball");
+    }
+    else{
+        printf("mismatch character");
+    }
+    return 0;
+}
+
+7)write a c program when a user input a 'c' character then print cat  otherwise input mismatch ?
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("enter alpha character");
+    scanf("%c",&alpha);
+    if(alpha=='c'){
+        printf("cat");
+    }
+    else{
+        printf("mismatch character");
+    }
+    return 0;
+}
+
+8)write a c program when a user input a 'a' character then two number addiition otherwise input mismtach ?
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("enter any character");
+    scanf("%c",&alpha);
+    if(alpha=='a'){
+        int b,c;
+        printf("enter the value of b and c");
+        scanf("%d %d",&b,&c);
+        int d=b+c;
+        printf("%d",d);
+    }
+    else{
+        printf("mismatch");
+    }
+    return 0;
+}
+
+
+9)write a c program to check a two number maximum ? 
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("enter the value of a and b");
+    scanf("%d %d",&a,&b);
+    if(a>b){
+        printf("a is greater");
+    }
+    else{
+        printf("b is greater");
+    }
+    return 0;
+}
+
+
+10)write a c program when a user input a 'm' character then two number multiplication otherwise input mismtach ?
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("enter any character");
+    scanf("%c",&alpha);
+    if(alpha=='m'){
+        int a,b;
+        printf("enter the value of a and b");
+        scanf("%d %d",&a,&b);
+        int c=a*b;
+        printf("%d",c);
+    }
+    else{
+        printf("mismatch");
+    }
+    return 0;
+}
+
+
+11)write a c program when a user input a 'd' character then two number divide otherwise input mismtach ?
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("enter d divide");
+    scanf("%c",&alpha);
+    if(alpha=='d'){
+        int a,b;
+        printf("enter the value of a and b");
+        scanf("%d %d",&a,&b);
+        int c=a/b;
+        printf("%d",c);
+    }
+    else{
+        printf("mismatch");
+    }
+    return 0;
+}
+
+12)write a c program to check a number is even or odd   ? 
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    if(a%2==0){
+        printf("this value is even");
+    }
+    else{
+        printf("this value is odd");
+    }
+    return 0;
+}
+
+
+13)write a c program when a user input a 's' character then number swap without third variable otherwise input mismtach ?
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("enter any character");
+    scanf("%c",&alpha);
+    if(alpha=='s'){
+        int a=10;
+        int b=30;
+        printf("the value of a and b is :%d\n %d\n",a,b);
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        printf("the swap value of a and b is :%d\n %d\n",a,b);
+    }
+    else{
+        printf("input mismatch");
+    }
+    return 0;
+}
+
+
+14)write a c program to check a user is eligible for voter or not ?
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    if(a>=18){
+        printf("eligible");
+    }
+    else{
+        printf("not eligible");
+    }
+    return 0;
+}
+
+15)write a c program when a user input a 'w' character then number swap with third variable otherwise input mismtach ?
+#include<stdio.h>
+int main(){
+    char alpha;
+    printf("enter any character");
+    scanf("%c",&alpha);
+    if(alpha=='w'){
+        int a,b,c;
+        printf("enter the value of a and b");
+        scanf("%d %d",&a,&b);
+        c=a;
+        a=b;
+        b=c;
+        printf(" the swap value of a and b is :%d\n %d",a,b);
+        
+    }
+    else{
+        printf("input mismatch");
+    }
+    return 0;
+}
+
+16)write a c program when a user input a 'm' character then print male otherwise input mismtach ?
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("enter any character");
+    scanf("%c",&alpha);
+    if(alpha=='m'){
+        printf("male");
+    }
+    else{
+        printf("mismatch");
+    }
+    return 0;
+}
+
+17)write a c program when a user input a 'f' character then print female otherwise input mismtach ?
+#include<stdio.h>
+int main()
+{
+    char alpha;
+    printf("enter any character");
+    scanf("%c",&alpha);
+    if(alpha=='f'){
+        printf("female");
+    }
+    else{
+        printf("mismatch");
+    }
+    return 0;
+}
+
+18)write a c program when a user input a character then check this character vowel and consonat  ?
+#include<stdio.h>
+int main()
+{
+    char vowel;
+    printf("enter any character");
+    scanf("%c",&vowel);
+    if(vowel=='a' ||vowel=='e' ||vowel=='i' ||vowel=='o' ||vowel=='u'){
+        printf("this is vowel");
+    }
+    else{
+        printf("this is consonant");
+    }
+    return 0;
+}
+
+19)write a c program when a user input a [q,w,e,r,t,y,u,i,o,p] character then print upper line otherwise input mismtach ?
+#include<stdio.h>
+int main(){
+    char alpha;
+    printf("enter any character");
+    scanf("%c",&alpha);
+    if(alpha=='q' ||alpha=='w' ||alpha=='e' ||alpha=='r' ||alpha=='t' ||alpha=='y' ||alpha=='u' ||alpha=='i' ||alpha=='o' ||alpha=='p'){
+        printf("upper line");
+    }
+    else{
+        printf("mismatch");
+    }
+       
+    return 0;
+}
+
+
+20)write a c program when a user input a [a,s,d,f,g,h,j,k,l] character then print mid line otherwise input mismtach ?
+#include<stdio.h>
+int main(){
+    char alpha;
+    printf("enter any character");
+    scanf("%c",&alpha);
+    if(alpha=='a' ||alpha=='s' ||alpha=='d' ||alpha=='f' ||alpha=='g' ||alpha=='h' ||alpha=='j' ||alpha=='k' ||alpha=='l'){
+        printf("mid line");
+    }
+    else{
+        printf("mismatch");
+    }
+       
+    return 0;
+}
+
+21)write a c program when a user input a [z,x,c,v,b,n,m] character then print lower line otherwise input mismtach ?
+#include<stdio.h>
+int main(){
+    char alpha;
+    printf("enter any character");
+    scanf("%c",&alpha);
+    if(alpha=='z' ||alpha=='x' ||alpha=='c' ||alpha=='v' ||alpha=='b' ||alpha=='n' ||alpha=='m'){
+        printf("lower line");
+    }
+    else{
+        printf("mismatch");
+    }
+       
+    return 0;
+}
+
+22)write a c program when a user input a number between 45 to 89 print this number is between 10 to 20 otherwise input mismtach ?
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    if(a>=45 && a<=89){
+        printf("print this number between 10 to 20");
+        
+    }
+       else{
+           printf("input mismatch");
+       }
+    return 0;
+}
+
+23)write a c program when a user input a number between 509 to 809 print this number is between 10 to 20 otherwise input mismtach ?
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    if(a>=509 && a<=809){
+        printf("print this number between 10 to 20");
+        
+    }
+       else{
+           printf("input mismatch");
+       }
+    return 0;
+}
+
+24)write a c program when a user input a number then check a number is divisble by 11 and 5 both print this number is divisible otherwise this number is not  divisible ?
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    if(a%11==0 && a%5==0){
+        printf("this number is divisible");
+    }
+    else{
+        printf("this number is not divisible");
+    }
+    return 0;
+}
+
+25)write a c program when a user input a number then check a number is divisble by 5 and 9 anyone print this number is divisible otherwise this number is not  divisible ?
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    if(a%9==0 ||a%5==0){
+        printf("this number is divisible");
+    }
+    else{
+        printf("this number is not divisible");
+    }
+    return 0;
+}
+
+26)write a c program when a user input a number then check a number is divisble by 2 and 3 and 4 and 6 both print this number is divisible otherwise this number is not  divisible ?
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    if(a%2==0 && a%3==0 && a%4==0 && a%6==0){
+        printf("this number is divisible");
+    }
+    else{
+        printf("this number is not divisible");
+    }
+    return 0;
+}
+
+27)
+write a c program when a user input a number then check a number is divisble by 2 and 12 and 7 and 5 anyone print this number is divisible otherwise this number is not  divisible ?
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    if(a%2==0 ||a%12==0 ||a%7==0 ||a%5==0){
+        printf("this number is divisible");
+    }
+    else{
+        printf("this number is not divisible");
+    }
+    return 0;
+}
+
+28)
+write a c program when a user input a [p,e,a,k] character then print this is peak value otherwise input mismtach ?
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the value of a");
+    scanf("%c",&a);
+    if(a=='p' ||a=='e' ||a=='a' ||a=='k'){
+        printf("this is peak value");
+    }
+    else{
+        printf("mismatch");
+    }
+    return 0;
+}
+29)
+write a c program when a user input a number between 509 to 809 print this number is between 167 to 289 otherwise input mismtach ?
+#include<stdio.h>
+int main() {
+    int p;
+    printf("enter the value of p");
+    scanf("%d",&p);
+    if(p>=509 && p<=809){
+        printf("this number is between 167 to 289 ");
+    }
+    else{
+        printf("input mismatch");
+    }
+    return 0;
+}
+
+30)write a c program to check a number is greater than 5698
+
+#include<stdio.h>
+int main() {
+    int g;
+    printf("enter the value of g");
+    scanf("%d",&g);
+    if(g>5698){
+        printf("g is greater ");
+    }
+    else{
+        printf("please input value greater than 5698");
+    }
+    return 0;
+}
+
